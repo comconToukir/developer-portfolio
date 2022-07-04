@@ -6,10 +6,13 @@ body {
 h1 {
   font-size: 50px;
 }
-h1 .orange-color {
+h2 {
+  font-size: 40px;
+}
+.orange-color {
   color: orange
 }
-section {
+.flexible-container {
   display: flex;
   margin-bottom: 120px;
 }
@@ -39,4 +42,27 @@ section {
   background-image: url(images/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
+}
+.exp-area {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+
+}
+.exp-card {
+  width: 40%;
+  background-color: #fff;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 30px;
+  padding-right: 20px;
+  box-shadow: 10px 10px 30px gray;
+  border-radius: 0 10px 10px 0;
+  border-left: 10px solid blue;
+}
+#full-stack-dev {
+  border-left: 10px solid tomato;
+}
+footer p {
+  text-align: center;
 }
